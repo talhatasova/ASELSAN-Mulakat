@@ -1,0 +1,94 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "turkish-wiki_ner",
+  "dataset_size": 6349622,
+  "description": "",
+  "download_size": 2211893,
+  "features": {
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "tags": {
+      "feature": {
+        "names": [
+          "O",
+          "B-CARDINAL",
+          "B-DATE",
+          "B-EVENT",
+          "B-FAC",
+          "B-GPE",
+          "B-LANGUAGE",
+          "B-LAW",
+          "B-LOC",
+          "B-MONEY",
+          "B-NORP",
+          "B-ORDINAL",
+          "B-ORG",
+          "B-PERCENT",
+          "B-PERSON",
+          "B-PRODUCT",
+          "B-QUANTITY",
+          "B-TIME",
+          "B-TITLE",
+          "B-WORK_OF_ART",
+          "I-CARDINAL",
+          "I-DATE",
+          "I-EVENT",
+          "I-FAC",
+          "I-GPE",
+          "I-LANGUAGE",
+          "I-LAW",
+          "I-LOC",
+          "I-MONEY",
+          "I-NORP",
+          "I-ORDINAL",
+          "I-ORG",
+          "I-PERCENT",
+          "I-PERSON",
+          "I-PRODUCT",
+          "I-QUANTITY",
+          "I-TIME",
+          "I-TITLE",
+          "I-WORK_OF_ART"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 8561515,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5710284,
+      "num_examples": 17967,
+      "dataset_name": "turkish-wiki_ner"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 313551,
+      "num_examples": 1000,
+      "dataset_name": "turkish-wiki_ner"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 325787,
+      "num_examples": 1000,
+      "dataset_name": "turkish-wiki_ner"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
